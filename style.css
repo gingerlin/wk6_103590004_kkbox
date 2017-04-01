@@ -39,7 +39,7 @@ header {
 	display: block;
 	color: black;
 	font-family: sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -84,7 +84,6 @@ header {
 
 .JJ {
 	display: inline-block;
-	width: 1057px;
 	height: 358px;
 	margin-top: 77px;
 	margin-left: 118px;
@@ -92,12 +91,22 @@ header {
 
 .album_JJ_img {
 	display: inline-block;
+	float: left;
 }
 
 .album_JJ_description {
 	display: inline-block;
 	margin-left: 112px;
   font-weight: bold;
+	vertical-align: top;
+}
+
+.album_JJ_description h1{
+  margin-top: 0;
+}
+
+.album_JJ_description p{
+  width: 500px;
 }
 
 button {
@@ -112,18 +121,27 @@ button {
 
 .peter {
 	display: inline-block;
-	width: 1057px;
 	margin-left: 118px;
 }
 
 .album_peter_img {
 	display: inline-block;
+	float: left;
 }
 
 .album_peter_description {
 	display: inline-block;
 	margin-left: 112px;
 	font-weight: bold;
+	vertical-align: top;
+}
+
+.album_peter_description h1{
+  margin-top: 0;
+}
+
+.album_peter_description p{
+  width: 500px;
 }
 
 #footer {
@@ -138,6 +156,8 @@ button {
 	display: inline-block;
 	float: left;
 	color: gray;
+	font-family: sans-serif;
+	font-size: 10px;
 	margin-top: 28px;
 	margin-left: 147px;
 }
