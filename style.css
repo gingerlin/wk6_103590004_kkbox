@@ -59,13 +59,10 @@ header {
 #banner_main {
   background: #f2f2f2;
   width: 1280px;
-  height: 830px;
 }
 
 .nav_btn_download {
   margin-left: 122px;
-  margin-right: 145px;
-  width: 1280px;
   height: 114px;
   display: inline-block;
   float: left;
@@ -74,8 +71,7 @@ header {
 .nav_btn_download li {
   list-style: none;
 	float: left;
-	padding-top: 73px;
-  padding: 29px 23px 29px 23px;
+  padding: 29px 23px 24px 23px;
 }
 
 .album {
@@ -96,12 +92,10 @@ header {
 
 .album_JJ_img {
 	display: inline-block;
-	float: left;
 }
 
 .album_JJ_description {
 	display: inline-block;
-	float: left;
 	margin-left: 112px;
   font-weight: bold;
 }
@@ -119,18 +113,15 @@ button {
 .peter {
 	display: inline-block;
 	width: 1057px;
-	height: 358px;
 	margin-left: 118px;
 }
 
 .album_peter_img {
 	display: inline-block;
-	float: left;
 }
 
 .album_peter_description {
 	display: inline-block;
-	float: left;
 	margin-left: 112px;
 	font-weight: bold;
 }
