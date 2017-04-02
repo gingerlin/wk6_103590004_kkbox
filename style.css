@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
 body {
 	margin: 0 auto;
 }
@@ -38,8 +40,8 @@ header {
 .nav_top a {
 	display: block;
 	color: black;
-	font-family: sans-serif;
-  font-size: 15px;
+	font-family: 'Questrial', sans-serif;
+  font-size: 18px;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -103,19 +105,43 @@ header {
 
 .album_JJ_description h1{
   margin-top: 0;
+	margin-bottom: 17px;
+	font-size: 40px;
+	font-family: "malgun gothic", simhei;
+}
+
+.album_JJ_description h2{
+	font-family: "malgun gothic", simhei;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .album_JJ_description p{
   width: 500px;
+	font-size: auto;
+	font-family: "malgun gothic", simhei;
 }
 
-button {
+.album_JJ_description button {
   background-color: #03b8f1;
-	font-family: sans-serif;
-	font-size: 20px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 22px;
 	color: white;
 	width: 166px;
 	height: 52px;
+	margin-top: 8px;
+	border-radius: 5px;
+}
+
+.album_peter_description button {
+  background-color: #03b8f1;
+	font-family: 'Questrial', sans-serif;
+	font-size: 22px;
+	color: white;
+	width: 166px;
+	height: 52px;
+	margin-top: 30px;
+	margin-top: 8px;
 	border-radius: 5px;
 }
 
@@ -138,10 +164,21 @@ button {
 
 .album_peter_description h1{
   margin-top: 0;
+	margin-bottom: 17px;
+	font-size: 40px;
+	font-family: "malgun gothic", simhei;
+}
+
+.album_peter_description h2{
+	font-family: "malgun gothic", simhei;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .album_peter_description p{
   width: 500px;
+	font-size: auto;
+	font-family: "malgun gothic", simhei;
 }
 
 #footer {
@@ -156,7 +193,7 @@ button {
 	display: inline-block;
 	float: left;
 	color: gray;
-	font-family: sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 10px;
 	margin-top: 28px;
 	margin-left: 147px;
