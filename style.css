@@ -130,7 +130,8 @@ header {
 	width: 166px;
 	height: 52px;
 	margin-top: 8px;
-	border: 5px blue none;
+	border: transparent;
+	border-radius: 5px;
 }
 
 .album_peter_description button {
@@ -142,7 +143,8 @@ header {
 	height: 52px;
 	margin-top: 30px;
 	margin-top: 8px;
-	border: 5px blue none;
+	border: transparent;
+	border-radius: 5px;
 }
 
 .peter {
